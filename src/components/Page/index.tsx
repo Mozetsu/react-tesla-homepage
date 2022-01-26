@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 import { ModelsWrapper, ModelSection } from '../Model';
 import DefaultOverlayContent from '../DefaultOverlayContent';
+import UniqueOverlay from '../uniqueOverlay';
 
 import { Container } from './styles';
 
@@ -22,6 +23,7 @@ function Page() {
 						)
 					)}
 				</div>
+				<UniqueOverlay />
 			</ModelsWrapper>
 		</Container>
 	);
