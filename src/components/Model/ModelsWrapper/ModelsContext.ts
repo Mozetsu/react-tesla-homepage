@@ -1,4 +1,3 @@
-import { Mode } from 'fs';
 import React, { ReactNode } from 'react';
 
 export interface CarModel {

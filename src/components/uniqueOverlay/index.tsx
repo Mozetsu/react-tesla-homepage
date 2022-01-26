@@ -18,13 +18,13 @@ function UniqueOverlay() {
 			<Footer style={{ opacity }}>
 				<ul>
 					<li>
-						<a href="#">UI Clone</a>
+						<a href="https://github.com/Mozetsu">UI Clone</a>
 					</li>
 					<li>
-						<a href="#">Built with 🚀</a>
+						<a href="https://github.com/Mozetsu">Built with 🚀</a>
 					</li>
 					<li>
-						<a href="#">By Mozetsu</a>
+						<a href="https://github.com/Mozetsu">By Mozetsu</a>
 					</li>
 				</ul>
 			</Footer>
