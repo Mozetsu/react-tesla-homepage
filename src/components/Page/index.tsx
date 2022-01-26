@@ -9,7 +9,7 @@ function Page() {
 		<Container>
 			<ModelsWrapper>
 				<div>
-					{['Model One', 'Model Two', 'Model Three', 'Model Four', 'Model Five', 'Model Six', 'Model Seven'].map(
+					{['Model 3', 'Model Y', 'Model S', 'Model X', 'Solar Panels', 'Solar Roof', 'Accessories'].map(
 						(modelName) => (
 							<ModelSection
 								className="colored"
