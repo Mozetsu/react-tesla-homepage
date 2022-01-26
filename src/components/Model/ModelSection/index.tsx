@@ -1,4 +1,4 @@
-import { ReactNode, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import useModel from '../ModelsWrapper/useModel';
 
 import { Container } from './styles';
@@ -21,7 +21,7 @@ const ModelSection = ({ modelName, overlayNode, children, ...props }: Props) => 
 				sectionRef,
 			});
 		}
-	}, []);
+	});
 
 	return (
 		<Container ref={sectionRef} {...props}>

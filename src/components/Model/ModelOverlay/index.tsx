@@ -28,7 +28,7 @@ function ModelOverlay({ model, children }: Props) {
 		}
 		window.addEventListener('resize', onResize);
 		return () => window.removeEventListener('resize', onResize);
-	}, []);
+	}, [getSectionDimensions]);
 
 	const { scrollY } = useWrapperScroll();
 

@@ -1,6 +1,4 @@
 import { useTransform } from 'framer-motion';
-import { ReactNode } from 'react';
-import { OperationCanceledException } from 'typescript';
 import useWrapperScroll from '../Model/ModelsWrapper/useWrapperScroll';
 
 import { Container, Header, Logo, Burguer, Footer } from './styles';
