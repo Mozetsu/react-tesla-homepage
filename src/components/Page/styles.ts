@@ -37,3 +37,9 @@ export const Container = styled.div`
 		background-position: center;
 	}
 `;
+
+export const Spacer = styled.div`
+	height: 15vh;
+	opacity: 0;
+	pointer-events: none;
+`;

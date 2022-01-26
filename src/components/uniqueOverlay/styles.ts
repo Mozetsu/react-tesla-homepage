@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import { LogoSVG, BurguerSVG } from './iconSVG';
 
@@ -34,7 +35,7 @@ export const Burguer = styled(BurguerSVG)`
 	cursor: pointer;
 `;
 
-export const Footer = styled.footer`
+export const Footer = styled(motion.footer)`
 	position: fixed;
 	bottom: 0;
 	left: 0;
